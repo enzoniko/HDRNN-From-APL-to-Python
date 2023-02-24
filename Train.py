@@ -20,4 +20,4 @@ def Train(target, net, derivatives, inp):
         dbs = Catenate(dbs, [Times(dx, actFn.DF(Plus(b, InnerProduct(w, Plus, Times, x))))])
         dx = InnerProduct(Transpose(w), Plus, Times, dbs[-1])
         dws = Catenate(dws, [InnerProduct(dbs[-1], Plus, Times, Transpose(x))])
-    return [Minus(ws, Times(0.001, Reverse(dws))), Minus(bs, Times(0.001, Reverse(dbs)))]
+    return [Minus(ws, Times(0.01, Reverse(dws))), Minus(bs, Times(0.01, Reverse(dbs)))]
