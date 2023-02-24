@@ -91,6 +91,9 @@ print(Plus([1, 2, 3], [4, 5, 6]))
 
 ```
 ### If you want to train the neural network, run the MNIST.py file:
+#### But don't forget to unzip the mnistreduced and/or the mnistdata folder, those contain the actual data the network will use.
+#### You can select which one to train with in the MNIST.py file by changing the path variable and the size of the network accordingly.
+#### I recommend using the mnistreduced 8x8 dataset, the other takes to long to train (that's why I provided a pretrained one).
 #### It will train on 5000 and test on 600 8x8 images, this will take a while, and the accuracy will be around 60%.
 #### You can improve the accuracy by adding MNIST() function calls below the last one, but it will take a lot of time.
 #### The trained neural network is saved in the net.pickle file so you can use it later.  
