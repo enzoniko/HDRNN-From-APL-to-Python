@@ -1,5 +1,4 @@
 from Rho import Shape, Reshape, homogeneous
-from pathos.multiprocessing import ProcessingPool as Pool
 import numpy as np
 from Tally import Tally
 def verify_args(*args, **kwargs):
@@ -23,20 +22,6 @@ def verify_args(*args, **kwargs):
             if Shape(args[0]) != Shape(args[1]) and Tally(args[0]) != Tally(args[1]):
                 raise ValueError("The arguments are not the same shape.")
         return args[0], args[1]
-
-def mult_map(f, vector):
-    with Pool() as pool:
-        try:
-            pool.restart()
-            return pool.map(f, vector)
-        except Exception as e:
-            print(e)
-            pool.close()
-            return None
-        finally:
-            pool.close()
-    
-    # ADD SUPPORT TO MULTIARGUMENT FUNCTIONS (STARMAP)
 
 def Print(vector, is_a_shape=False):
     if homogeneous(vector):
