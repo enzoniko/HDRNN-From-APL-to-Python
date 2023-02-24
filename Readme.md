@@ -26,7 +26,7 @@ Since I already implemented this neural network in APL it was a good opportunity
 - I strongly recommend you to read the [APL Wiki](https://aplwiki.com/wiki/Main_Page) to understand the concepts behind APL, I promise it is worth it.
 
 ## Installation
-
+#### Download the zipped repository, unzip it into a folder, open the folder on your IDE, run `pip install -r requirements.txt`, enjoy!
 
 ## Documentation
 ### APL Symbols implemented
@@ -82,7 +82,7 @@ Since I already implemented this neural network in APL it was a good opportunity
 - `MNIST()`: Main function, loads the MNIST dataset, initializes the network, trains it and tests it;
 
 ## Usage
-### If you want to use the APL symbols in your project you can import them like this:
+### If you want to use the APL symbols you can import them like this (Need to be in the same directory):
 ```python
 from Symbols import *
 
@@ -105,10 +105,10 @@ print(Plus([1, 2, 3], [4, 5, 6]))
 </br>
 
 ## Final Thoughts
-### So, I believe that my objectives with this project were achieved, I learned a lot about APL, my Python and problem solving skills improved, I refreshed my knowledge about neural networks and showed how the array-oriented programming paradigm is extremely powerfull and can be used to solve problems in a very different way.
-### This project was filled with difficulties, but there is one problem I really wish I could solve: The Performance, I tried to optimize the code as much as I could, but it still takes a lot of time to train the neural network, and it is not even close to the APL performance, I believe that my code is not the most optimal however there is something about implementing another language's base features in a pythonic manner (with recursions and loops and all of that) that sounds like it would be a naturally slow code.
-### Another thing I wish I did is to implement all of APL's symbols, I only implemented the ones I needed, but I believe that implementing all of them would be a great learning experience and could evolve to an actual array-oriented python library (If performance was improved), maybe I will do that in the future.
-### I hope you enjoyed this project, I had a lot of fun making it, and I hope you realised that Objective-Oriented and Functional paradigms aren't the only ones, learning this distinct paradigm actually changed the way my brain thinks about problems and I will be forever gratefull to APL for this.
+#### So, I believe that my objectives with this project were achieved, I learned a lot about APL, my Python and problem solving skills improved, I refreshed my knowledge about neural networks and showed how the array-oriented programming paradigm is extremely powerfull and can be used to solve problems in a very different way.
+#### This project was filled with difficulties, but there is one problem I really wish I could solve: The Performance, I tried to optimize the code as much as I could, but it still takes a lot of time to train the neural network, and it is not even close to the APL performance, I believe that my code is not the most optimal however there is something about implementing another language's base features in a pythonic manner (with recursions and loops and all of that) that sounds like it would be a naturally slow code.
+#### Another thing I wish I did is to implement all of APL's symbols, I only implemented the ones I needed, but I believe that implementing all of them would be a great learning experience and could evolve to an actual array-oriented python library (If performance was improved), maybe I will do that in the future.
+#### I hope you enjoyed this project, I had a lot of fun making it, and I hope you realised that Objective-Oriented and Functional paradigms aren't the only ones, learning this distinct paradigm actually changed the way my brain thinks about problems and I will be forever gratefull to APL for this.
 ### If you have any questions or suggestions, feel free to contact me, I will be happy to answer them.
 
 ## Code Comparison
