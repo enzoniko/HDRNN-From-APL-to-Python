@@ -112,8 +112,8 @@ print(Plus([1, 2, 3], [4, 5, 6]))
 ### If you have any questions or suggestions, feel free to contact me, I will be happy to answer them.
 
 ## Code Comparison
-![image info](./pictures/apl.png)
-![image info](./pictures/python.png)
+![image info](apl.png)
+![image info](python.png)
 
 ## GUI
-![image info](./pictures/gui.gif)
+![image info](gui.gif)
